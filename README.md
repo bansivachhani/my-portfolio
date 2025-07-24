@@ -2,6 +2,10 @@
 
 This is a modern and responsive **personal portfolio website** built using **React**, **TypeScript**, and **Tailwind CSS**. It showcases my skills, projects, contact details, and more.
 
+🔗 **Live Demo**: [https://my-portfolio-98pg.vercel.app](https://my-portfolio-98pg.vercel.app)
+
+---
+
 ## 🔧 Tech Stack
 
 - ⚛️ React
@@ -10,20 +14,22 @@ This is a modern and responsive **personal portfolio website** built using **Rea
 - ⚡ Vite (for fast development)
 - 🎨 Lucide Icons
 
+---
+
 ## 📸 Features
 
-- Responsive UI for all screen sizes
-- Dark & Light theme toggle
-- Skill progress bars with animations
-- Contact section with phone number and email
-- Smooth and modern gradients
-- Animated and clean user interface
-- Easy to maintain and scale
+- 🌙 Dark & Light theme toggle
+- 📱 Fully responsive across devices
+- 📊 Skill progress bars with smooth animation
+- ✉️ Contact form with email support
+- 🎨 Beautiful gradient design & transitions
+- 💡 Clean, modern, and scalable codebase
+
+---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
-
    ```bash
    git clone https://github.com/bansivachhani/my-portfolio.git
    cd my-portfolio
