@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Phone, Send, Github, Linkedin, Code } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import emailjs from 'emailjs-com';
+
 const Contact = () => {
   const { isDark } = useTheme();
   const [formData, setFormData] = useState({
@@ -18,13 +20,40 @@ const Contact = () => {
     }));
   };
 
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   // Here you would typically send the form data to your backend
+  //   console.log('Form submitted:', formData);
+  //   alert('Thank you for your message! I\'ll get back to you soon.');
+  //   setFormData({ name: '', email: '', subject: '', message: '' });
+  // };
+
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-  };
+  e.preventDefault();
+
+  const { VITE_APP_EMAILJS_SERVICE_ID, VITE_APP_EMAILJS_TEMPLATE_ID, VITE_APP_EMAILJS_PUBLIC_KEY } = import.meta.env;
+
+  emailjs
+    .send(
+      VITE_APP_EMAILJS_SERVICE_ID,
+      VITE_APP_EMAILJS_TEMPLATE_ID,
+      {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message
+      },
+      VITE_APP_EMAILJS_PUBLIC_KEY
+    )
+    .then(() => {
+      alert('Message sent successfully!');
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    })
+    .catch((error) => {
+      alert('Message failed to send. Please try again.');
+      console.error(error);
+    });
+};
 
   const socialLinks = [
     {

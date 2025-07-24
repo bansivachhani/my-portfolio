@@ -19,7 +19,7 @@ const Projects = () => {
     image: blinkitImg,
     technologies: ['React', 'JavaScript', 'CSS3', 'Responsive Design'],
     githubLink: 'https://github.com/bansivachhani/blinkit-clone',
-    liveDemoLink: 'https://blinkit-clone-demo.vercel.app',
+    liveDemoLink: 'https://www.youtube.com/watch?v=slN124MPVrc',
     featured: true
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
         technologies: ['React', 'JavaScript', 'CSS3'],
         githubLink: 'https://github.com/bansivachhani/todo-list-app',
         liveDemoLink: 'https://todo-list-app-alpha-lyart.vercel.app/',
-        featured: false
+        featured: true
     },
     {
       title: 'Jokes App',
@@ -47,7 +47,7 @@ const Projects = () => {
       technologies: ['React', 'Quotes API', 'CSS3', 'JavaScript'],
       githubLink: 'https://github.com/bansivachhani/quote-generator',
        liveDemoLink: 'https://jokes-app-demo.vercel.app',
-      featured: false
+      featured: true
     },
     
     {
@@ -57,7 +57,7 @@ const Projects = () => {
       technologies: ['React', 'JavaScript', 'CSS3', 'Local Storage'],
       githubLink: 'https://github.com/bansivachhani/quiz-app',
        liveDemoLink: 'https://quizapp-zeta-sand.vercel.app/',
-      featured: false
+      featured: true
     },
     {
         title: 'Weather App',
@@ -66,7 +66,7 @@ const Projects = () => {
         technologies: ['React', 'Weather API', 'CSS3', 'JavaScript'],
         githubLink: 'https://github.com/bansivachhani/weather-app',
         liveDemoLink: 'https://weather-app-lime-omega-94.vercel.app/',
-        featured: false
+        featured: true
     }
     
   ];
