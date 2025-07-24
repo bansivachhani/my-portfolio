@@ -18,7 +18,7 @@ const Projects = () => {
     description: 'A complete clone of Blinkit grocery delivery app with modern UI...',
     image: blinkitImg,
     technologies: ['React', 'JavaScript', 'CSS3', 'Responsive Design'],
-    githubLink: 'https://github.com/bansivachhani/blinkit-clone',
+    githubLink: 'https://github.com/bansivachhani/Binkey-it',
     liveDemoLink: 'https://www.youtube.com/watch?v=slN124MPVrc',
     featured: true
     },
@@ -36,7 +36,7 @@ const Projects = () => {
       description: 'A fun and interactive jokes application that fetches random jokes from API. Features different joke categories, favorites functionality, and clean modern interface with smooth animations.',
       image: jokesImg,
       technologies: ['React', 'Jokes API', 'CSS3', 'JavaScript'],
-      githubLink: 'https://github.com/bansivachhani/jokes-app',
+      githubLink: 'https://github.com/bansivachhani/Joke-Generator',
      liveDemoLink: 'https://joke-generator-lake.vercel.app/',
       featured: true
     },
@@ -45,7 +45,7 @@ const Projects = () => {
       description: 'Inspirational quote generator with beautiful typography and sharing functionality. Features random quotes, author information, category filtering, and social media sharing options.',
       image: quoteImg,
       technologies: ['React', 'Quotes API', 'CSS3', 'JavaScript'],
-      githubLink: 'https://github.com/bansivachhani/quote-generator',
+      githubLink: 'https://github.com/bansivachhani/quote-generator-',
        liveDemoLink: 'https://quote-generator-liart-chi.vercel.app/',
       featured: true
     },
@@ -55,7 +55,7 @@ const Projects = () => {
       description: 'Interactive quiz app with multiple categories, timer functionality, score tracking, and results analysis. Features progress tracking, difficulty levels, and detailed performance analytics.',
       image: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600',
       technologies: ['React', 'JavaScript', 'CSS3', 'Local Storage'],
-      githubLink: 'https://github.com/bansivachhani/quiz-app',
+      githubLink: 'https://github.com/bansivachhani/quizapp',
        liveDemoLink: 'https://quizapp-zeta-sand.vercel.app/',
       featured: true
     },
