@@ -46,7 +46,7 @@ const Projects = () => {
       image: quoteImg,
       technologies: ['React', 'Quotes API', 'CSS3', 'JavaScript'],
       githubLink: 'https://github.com/bansivachhani/quote-generator',
-       liveDemoLink: 'https://jokes-app-demo.vercel.app',
+       liveDemoLink: 'https://quote-generator-liart-chi.vercel.app/',
       featured: true
     },
     
