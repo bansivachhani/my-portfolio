@@ -35,7 +35,7 @@ const Projects = () => {
       title: 'Jokes App',
       description: 'A fun and interactive jokes application that fetches random jokes from API. Features different joke categories, favorites functionality, and clean modern interface with smooth animations.',
       image: jokesImg,
-      technologies: ['React', 'Jokes API', 'CSS3', 'JavaScript'],
+      technologies: ['React', 'Jokes API', 'CSS3', 'TypeScript'],
       githubLink: 'https://github.com/bansivachhani/Joke-Generator',
      liveDemoLink: 'https://joke-generator-lake.vercel.app/',
       featured: true
